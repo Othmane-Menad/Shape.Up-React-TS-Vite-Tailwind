@@ -19,7 +19,11 @@ function home({ setSelectedPage }: Props) {
   return (
     <section id="home" className="gap-16 bg-gray-20 py-10 md:h-full md:pb-0">
       {/* IMAGE AND MAIN HEADER */}
-      <div className="mx-auto w-5/6 items-center justify-center md:flex md:h-5/6">
+      <motion.div
+        className="mx-auto w-5/6 items-center justify-center md:flex md:h-5/6"
+        /* using motion to change color of link when we go to the appropriate page */
+        onViewportEnter={() => setSelectedPage(SelectedPage.Home)}
+      >
         {/* MAIN HEADER */}
         <div className="z-10 mt-32 md:basis-3/5">
           {/* HEADING  */}
@@ -75,7 +79,7 @@ function home({ setSelectedPage }: Props) {
         <div className="flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end">
           <img alt="Home-pageGrahic" className="z-20" src={HomePageGraphic} />
         </div>
-      </div>
+      </motion.div>
       {/* SPONSORES */}
       {isAboveMediumScreens && (
         <div className="h-[150px] w-full bg-primary-100 py-10">

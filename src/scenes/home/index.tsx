@@ -75,7 +75,6 @@ function home({ setSelectedPage }: Props) {
           </motion.div>
         </div>
         {/* IMAGE */}
-        {/* fixed text overlaping picture */}
         <div className="flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end">
           <img alt="Home-pageGrahic" className="z-20" src={HomePageGraphic} />
         </div>

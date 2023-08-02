@@ -43,7 +43,7 @@ function home({ setSelectedPage }: Props) {
                 <img alt="home-page-text" src={HomePageText} />
               </div>
             </motion.div>
-            <p className="mt-8 text-sm ">
+            <p className="mt-8 text-justify text-sm ">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Molestiae nulla consequuntur nemo harum corrupti reiciendis
               perspiciatis natus minima suscipit fuga asperiores explicabo, modi

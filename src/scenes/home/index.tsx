@@ -1,11 +1,11 @@
 import useMediaQuery from "@/hooks/useMediaQuery";
 import ActionButton from "@/shared/actionButton";
 import { SelectedPage } from "@/shared/types";
-import HomePageText from "@/assets/HomePageText.png";
-import HomePageGraphic from "@/assets/HomePageGraphic.png";
-import SponsorRedBull from "@/assets/SponsorRedBull.png";
-import SponsorForbes from "@/assets/SponsorForbes.png";
-import SponsorFortune from "@/assets/SponsorFortune.png";
+import HomePageText from "@/assets/HomePageText.webp";
+import HomePageGraphic from "@/assets/HomePageGraphic.webp";
+import SponsorRedBull from "@/assets/SponsorRedBull.webp";
+import SponsorForbes from "@/assets/SponsorForbes.webp";
+import SponsorFortune from "@/assets/SponsorFortune.webp";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
 

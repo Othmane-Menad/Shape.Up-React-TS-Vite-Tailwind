@@ -1,4 +1,4 @@
-import Logo from "@/assets/Logo.png";
+import Logo from "@/assets/Logo.webp";
 
 const Footer = () => {
   const spacing = `mb-3`;

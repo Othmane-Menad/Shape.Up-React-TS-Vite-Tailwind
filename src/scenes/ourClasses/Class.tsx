@@ -13,7 +13,11 @@ const Class = ({ name, description, image }: Props) => {
         <p className="text-2xl">{name}</p>
         <p className="mt-5">{description}</p>
       </div>
-      <img className="h-full object-cover" src={image} alt={`${image}`} />
+      <img
+        className="h-full object-cover"
+        src={image}
+        alt="Gym-Training-sport"
+      />
     </li>
   );
 };
